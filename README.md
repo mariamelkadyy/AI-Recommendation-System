@@ -71,6 +71,7 @@ jupyter notebook notebooks/recommendation_system.ipynb
 
 ## 🧪 Example Output
 Input: 'The Fast and the Furious'
+
 Top 5 Recommendations:
 ─────────────────────────────────────────
 Rank  Title                    Score
