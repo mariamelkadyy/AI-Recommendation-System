@@ -40,11 +40,10 @@ Output: Ranked list of recommended movies
 ## 📁 Project Structure
 
 ```
-Task-1-MariamAhmed/
+Task-3-MariamAhmed/
 │
 ├── tmdb_5000_movies.csv              # TMDB dataset (download from Kaggle)
 ├── recommendation_system.ipynb       # Full project notebook
-├── app.py                            # Streamlit web app
 ├── requirements.txt
 ├── outputs/
 │   └── recommendations.csv           # Saved recommendation results
@@ -57,8 +56,8 @@ Task-1-MariamAhmed/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/mariamelkadyy/Task-1-MariamAhmed.git
-cd Task-1-MariamAhmed
+git clone https://github.com/mariamelkadyy/Task-3-MariamAhmed.git
+cd Task-3-MariamAhmed
 ```
 
 **2. Install dependencies**
@@ -71,12 +70,7 @@ pip install -r requirements.txt
 Go to [TMDB Movie Metadata on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)  
 Download `tmdb_5000_movies.csv` and place it in the **same folder as `app.py`** (the root of the repo).
 
-**4. Run the Streamlit app**
-```bash
-streamlit run app.py
-```
-
-**5. Or run the notebook**
+**4. Run the notebook**
 ```bash
 jupyter notebook recommendation_system.ipynb
 ```
@@ -147,14 +141,6 @@ Measures the angle between two vectors — not their size.
 - numpy
 - scikit-learn
 - streamlit
-- jupyter
 
----
 
-## 👩‍💻 Author
 
-**Mariam**  
-AI Student — Galala University  
-Industrial Training @ DecodeLabs, Batch 2026
-
-[![GitHub](https://img.shields.io/badge/GitHub-mariamelkadyy-black?logo=github)](https://github.com/mariamelkadyy)
