@@ -40,6 +40,8 @@ AI_Recommendation_Project/
 ├── tmdb_5000_movies.csv              # TMDB dataset (download from Kaggle)
 ├── recommendation_system.ipynb       # Full project notebook
 ├── requirements.txt
+├── outputs/
+│   └── recommendations.csv           # Saved recommendation results
 └── README.md
 
 ---
@@ -48,8 +50,8 @@ AI_Recommendation_Project/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/mariamelkadyy/AI_Recommendation_Project.git
-cd AI_Recommendation_Project
+git clone https://github.com/mariamelkadyy/Task-1-MariamAhmed.git
+cd Task-1-MariamAhmed
 ```
 
 **2. Install dependencies**
